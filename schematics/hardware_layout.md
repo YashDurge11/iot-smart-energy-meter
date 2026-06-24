@@ -19,3 +19,7 @@ This document details the hardware layer connections for the IoT Smart Energy Me
 ## ⚡ Circuit Operational Warnings
 1. **High Voltage Safety:** The input side of the ZMPT101B transformer and the terminal blocks of the ACS712 connect directly to mains AC power (230V/50Hz). Exercise extreme caution during physical prototyping.
 2. **ADC Attenuation:** Ensure the ESP32 internal ADC attenuation is configured to handle signals up to 3.3V without clipping the peaks of the incoming AC waveforms.
+
+## 🖼️ Circuit Schematic Diagram
+
+![IoT Smart Energy Meter Schematic](circuit_schematic.png)
