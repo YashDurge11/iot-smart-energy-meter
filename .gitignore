@@ -1,0 +1,21 @@
+# --- Arduino IDE Temporary Files ---
+*.tmp
+*.bak
+.build/
+build/
+
+# --- PlatformIO Specific Files ---
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+
+# --- Security/Credentials (Crucial!) ---
+# If you decide to put your Wi-Fi passwords in a separate config file later:
+config.h
+secrets.h
